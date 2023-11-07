@@ -47,8 +47,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution on Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Live site with Github Pages](https://your-live-site-url.com)
+- Solution URL: [solution on Frontend Mentor](https://www.frontendmentor.io/solutions/expenses-chart-component-solution-VaKqgakddO)
+- Live Site URL: [Live site with Github Pages](https://itsale-o.github.io/expenses-chart-component/)
 
 ## My process
 
