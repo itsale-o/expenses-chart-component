@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Expenses Chart Component</title>
+</head>
+<body>
+  <main>
+    <div id="container">
+      <div id="header">
+        <div id="my-balance-div">
+          <h1>My balance</h1>
+          <p>$921.48</p>
+        </div>
+        <img src="images/logo.svg" alt="">       
+      </div>
+      <div id="chart-container">
+        <p id="title" class="number">Spending - Last 7 days</p>
+        <div id="chart-div">      
+          <div id="bars"></div>
+          <div id="amounts"></div>
+        </div>
+        <div id="divider-line"></div>
+        <div id="numbers-div">
+          <div id="total">
+            <p class="not-a-number">Total this month</p>
+            <p id="total-value" class="number">$478.33</p>
+          </div>
+          <div id="percent-ralation">
+            <p id="percent" class="number">+2.4%</p>
+            <p class="not-a-number">from last month</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/itsale-o">Alessandra Oliveira</a>.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
